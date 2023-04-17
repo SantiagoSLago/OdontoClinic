@@ -119,6 +119,7 @@ formularioModificacion.addEventListener('submit',(event)=>{
     })
     .then((responseData)=>{
         console.log(responseData)
+        window.location.reload()
     })
     .catch(function(e){
             let error = JSON.stringify(e.message)

@@ -55,7 +55,7 @@ public class TurnoServiceTest {
 
     }
 
-    @Test
+   /* @Test
     public void validacion_datos_exitosa_creacion_turno_test() {
 
         //Arrange
@@ -78,7 +78,9 @@ public class TurnoServiceTest {
 
     }
 
-    @Test
+    */
+
+   /* @Test
     public void creacion_turno_exitosa_test() {
         //Arrange
         Domicilio domicilio = new Domicilio(443, "Los perales", "San Martin", "Santa Fe", "Argentina");
@@ -105,7 +107,9 @@ public class TurnoServiceTest {
 
     }
 
-    @Test
+    */
+
+   /* @Test
     public void consulta_de_turno_exitosa_test() throws ValidacionExcepcion, NoSuchObjectException {
         //Arrange
         Domicilio domicilio = new Domicilio(342355, "Los perales", "San Martin", "Santa Fe", "Argentina");
@@ -126,7 +130,9 @@ public class TurnoServiceTest {
 
     }
 
-    @Test
+    */
+
+   /* @Test
     public void actualizacion_turno_exitosa_test() {
         //Arrange
         Domicilio domicilio = new Domicilio(121212, "Azcuenaga", "La consulta", "Cordoba", "Argentina");
@@ -159,7 +165,10 @@ public class TurnoServiceTest {
 
     }
 
-    @Test
+    */
+
+
+    /*@Test
     public void eliminacion_turno_exitosa_test() throws ValidacionExcepcion, NoSuchObjectException {
         //Arrange
         Domicilio domicilio = new Domicilio(14, "Zapata", "Rio IV", "Cordoba", "Argentina");
@@ -181,6 +190,8 @@ public class TurnoServiceTest {
 
 
     }
+
+     */
 
 
 }

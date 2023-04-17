@@ -20,8 +20,10 @@ import javax.swing.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 import java.rmi.NoSuchObjectException;
+import java.time.LocalDateTime;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.Locale;
 
 @SpringBootTest
 public class TurnoControladorTest {
@@ -45,7 +47,7 @@ public class TurnoControladorTest {
         Domicilio domicilio = new Domicilio(212, "Piedras", "San Telmo", "Buenos Aires", "Argentina");
         Paciente paciente = new Paciente(98124, "Martin", "Rios", "mr@gmail.com", domicilio, new Date());
         Odontologo odontologo = new Odontologo(89324, "Matias", "Rojo");
-        TurnoRequestDTO turnoRequestDTO = new TurnoRequestDTO(paciente.getDni(), odontologo.getMatricula(), new Date());
+        TurnoRequestDTO turnoRequestDTO = new TurnoRequestDTO(paciente.getDni(), odontologo.getMatricula(),LocalDateTime.of(2023,10,15,10,20,30));
 
         //Act
         pacienteServicio.crearPaciente(paciente);
@@ -56,6 +58,7 @@ public class TurnoControladorTest {
         assertEquals(codigo_respuesta_esperada,respuesta);
 
     }
+
 
     @Test
     public void actualizacion_turno_exitosa_test() throws ValidacionExcepcion, NoSuchObjectException {
@@ -68,7 +71,7 @@ public class TurnoControladorTest {
         Domicilio segundo_domicilio = new Domicilio(5545, "Acacias", "Nappa", "California", "USA");
         Paciente segundo_paciente = new Paciente(8832, "Luke", "Skywlaker", "i_love_yoda@gmail.com", primer_domicilio, new Date());
         Odontologo segundo_odontologo = new Odontologo(123008, "Darth", "Vader");
-        TurnoRequestDTO turnoRequestDTO = new TurnoRequestDTO(primer_paciente.getDni(), primer_odontologo.getMatricula(), new Date());
+        TurnoRequestDTO turnoRequestDTO = new TurnoRequestDTO(primer_paciente.getDni(), primer_odontologo.getMatricula(), LocalDateTime.of(2023,10,15,10,20,30));
         Integer id_turno;
 
 
@@ -81,7 +84,7 @@ public class TurnoControladorTest {
         turnoRequestDTO.setId(id_turno);
         turnoRequestDTO.setDni_paciente(segundo_paciente.getDni());
         turnoRequestDTO.setMatricula_odontologo(segundo_odontologo.getMatricula());
-        turnoRequestDTO.setFecha_turno(new Date(2023-1900, Calendar.APRIL,8));
+        turnoRequestDTO.setFecha_turno(LocalDateTime.of(2023,10,15,10,20,30));
         respuesta = turnoControlador.actualizarTurno(turnoRequestDTO).getStatusCode();
 
 
@@ -99,7 +102,7 @@ public class TurnoControladorTest {
         Domicilio domicilio = new Domicilio(3434, "25st", "New York", "Ney York", "USA");
         Paciente paciente = new Paciente(343, "Donald", "Trump", "money@gmail.com", domicilio, new Date());
         Odontologo odontologo = new Odontologo(38927, "Vladimir", "Putin");
-        TurnoRequestDTO turnoRequestDTO = new TurnoRequestDTO(paciente.getDni(), odontologo.getMatricula(), new Date());
+        TurnoRequestDTO turnoRequestDTO = new TurnoRequestDTO(paciente.getDni(), odontologo.getMatricula(), LocalDateTime.of(2023,10,15,10,20,30));
         Integer id_turno_creado;
 
         //Act
@@ -121,7 +124,7 @@ public class TurnoControladorTest {
         Domicilio domicilio = new Domicilio(7821, "Saenz Peña", "Kingston", "Capital", "Jamaica");
         Paciente paciente = new Paciente(4353, "Bob", "Marley", "rasta@gmail.com", domicilio, new Date());
         Odontologo odontologo = new Odontologo(4302, "Charles", "Xavier");
-        TurnoRequestDTO turnoRequestDTO = new TurnoRequestDTO(paciente.getDni(), odontologo.getMatricula(), new Date());
+        TurnoRequestDTO turnoRequestDTO = new TurnoRequestDTO(paciente.getDni(), odontologo.getMatricula(), LocalDateTime.of(2023,10,15,10,20,30));
         Integer id_turno_creado;
 
         //Act
@@ -135,5 +138,9 @@ public class TurnoControladorTest {
 
 
     }
+
+
+
+
 
 }

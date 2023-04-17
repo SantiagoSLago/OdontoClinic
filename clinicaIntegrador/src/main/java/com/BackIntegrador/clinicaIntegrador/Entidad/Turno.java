@@ -8,6 +8,8 @@ import lombok.Getter;
 import lombok.Setter;
 
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.Date;
 
 @Entity
@@ -26,10 +28,10 @@ public class Turno {
     @ManyToOne()
     @JoinColumn(name="odontologo_id")
     private Odontologo odontologo;
-    private Date fecha_turno;
+    private LocalDateTime fecha_turno;
 
 
-    public Turno( Paciente paciente,  Odontologo odontologo, Date fecha_turno) {
+    public Turno( Paciente paciente,  Odontologo odontologo, LocalDateTime fecha_turno) {
         this.paciente = paciente;
         this.odontologo = odontologo;
         this.fecha_turno = fecha_turno;

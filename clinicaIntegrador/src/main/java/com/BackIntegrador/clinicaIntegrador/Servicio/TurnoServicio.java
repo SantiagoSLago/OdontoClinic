@@ -12,14 +12,16 @@ import com.sun.tools.jconsole.JConsoleContext;
 import jakarta.transaction.Transactional;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.jpa.convert.threeten.Jsr310JpaConverters;
 import org.springframework.stereotype.Service;
 
 import java.rmi.NoSuchObjectException;
+import java.text.DateFormat;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-import java.util.Optional;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.*;
 
 @Service
 public class TurnoServicio {
@@ -46,8 +48,7 @@ public class TurnoServicio {
 
 
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        Date fechaTurno = turnoRequestDTO.getFecha_turno();
-        dateFormat.format(fechaTurno);
+        LocalDateTime fechaTurno = turnoRequestDTO.getFecha_turno();
 
 
         Turno turno = new Turno(p, o, fechaTurno);
@@ -157,8 +158,8 @@ public class TurnoServicio {
         turnoResponseDTO.setApellido_paciente(turno.getPaciente().getApellido());
         turnoResponseDTO.setNombre_odontologo(turno.getOdontologo().getNombre());
         turnoResponseDTO.setApellido_odontologo(turno.getOdontologo().getApellido());
-        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        turnoResponseDTO.setFecha_turno(dateFormat.format(turno.getFecha_turno()));
+        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+        turnoResponseDTO.setFecha_turno(turno.getFecha_turno().format(dtf));
         turnoResponseDTO.setId_turno(turno.getId());
         return turnoResponseDTO;
 
