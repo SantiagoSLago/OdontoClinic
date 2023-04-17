@@ -1,0 +1,77 @@
+* {
+    font-family: 'Rubik', sans-serif;
+    color: #1B365C;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../assets/Telegram.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tabla_odontologos {
+    margin-top: 20px;
+    margin-left: 300px;
+    align-self: center;
+}
+
+#formularios {
+    display: flex;
+
+    justify-content: space-around;
+
+}
+
+#formulario_odontologoAlta {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.bloquesFormOdontologoAlta {
+    display: flex;
+    justify-content: space-around;
+}
+
+#formulario_odontologoModificacion {
+    display: flex;
+    flex-direction: column;
+}
+
+.bloquesFormOdontologoBaja {
+    display: flex;
+    justify-content: space-around;
+}
+
+#tabla_odontologos {
+    width: 950px;
+}
+
+.oculto {
+    visibility: hidden;
+}
+
+.botones-init {
+    color: #f3f0f0;
+    background-color: #1B365C;
+    border: none
+}
+
+.botones-form {
+    color: #1B365C;
+    border-color: #1B365C;
+}
+
+.botones-form:hover {
+    color: #f3f0f0;
+    background-color: #1B365C;
+    border-color: #1B365C;
+}

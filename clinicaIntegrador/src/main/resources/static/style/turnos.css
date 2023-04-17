@@ -1,0 +1,51 @@
+* {
+  font-family: 'Rubik', sans-serif;
+  color: #1B365C;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../assets/Telegram.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#tabla_turnos {
+  width: 950px;
+  align-self: center;
+  margin-top: 20px;
+}
+
+
+#formularios{
+  display: flex;
+  justify-content: space-around;
+}
+
+.oculto{
+visibility: hidden;
+}
+
+.botones-init {
+  color: #f3f0f0;
+  background-color: #1B365C;
+  border: none
+}
+
+.botones-form {
+  color: #1B365C;
+  border-color: #1B365C;
+}
+
+.botones-form:hover {
+  color: #f3f0f0;
+  background-color: #1B365C;
+  border-color: #1B365C;
+}

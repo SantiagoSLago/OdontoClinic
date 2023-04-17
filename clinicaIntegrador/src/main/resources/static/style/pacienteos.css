@@ -1,0 +1,78 @@
+* {
+    font-family: 'Rubik', sans-serif;
+    color: #1B365C;
+}
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../assets/Telegram.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tabla_pacientes {
+    margin-top: 20px;
+   margin-left: 300px;
+}
+
+#formularios {
+    display: flex;
+
+    justify-content: space-around;
+
+}
+
+#formulario_pacienteAlta {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.bloquesFormPacienteAlta {
+    display: flex;
+    justify-content: space-around;
+}
+
+#formulario_pacienteModificacion {
+    display: flex;
+    flex-direction: column;
+}
+
+.bloquesFormPacienteBaja {
+    display: flex;
+    justify-content: space-around;
+}
+
+#tabla_Pacientes {
+    width: 950px;
+}
+
+.oculto {
+    visibility: hidden;
+}
+
+.botones-init {
+    color: #f3f0f0;
+    background-color: #1B365C;
+    border: none
+}
+
+.botones-form {
+    color: #1B365C;
+    border-color: #1B365C;
+}
+
+.botones-form:hover {
+    color: var(--bs-btn-hover-color);
+    background-color: #1B365C;
+    border-color: #1B365C;
+}

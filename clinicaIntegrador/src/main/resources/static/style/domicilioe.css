@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+#formularios{
+    display: flex;
+    justify-content: space-around;
+}
+.oculto{
+
+  visibility: hidden;
+
+}

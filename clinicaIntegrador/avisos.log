@@ -1,0 +1,154 @@
+[2023-04-10 20:50:00] [ERROR] [GlobalExceptionHandler:23] El odontologo solicitado no se encuentra registrado
+[2023-04-10 20:50:22] [INFO ] [OdontologoServicio:35] Odontologo creado: Matricula: 1 Nombre: string Apellido: string
+[2023-04-10 20:50:28] [INFO ] [OdontologoServicio:35] Odontologo creado: Matricula: 1 Nombre: string Apellido: string
+[2023-04-10 20:50:58] [INFO ] [OdontologoServicio:35] Odontologo creado: Matricula: 143 Nombre: Juan Apellido: Perez
+[2023-04-10 20:51:42] [ERROR] [GlobalExceptionHandler:23] El odontologo solicitado no se encuentra registrado
+[2023-04-10 20:51:44] [ERROR] [GlobalExceptionHandler:23] El odontologo solicitado no se encuentra registrado
+[2023-04-10 20:52:01] [INFO ] [OdontologoServicio:95] Odontologo Eliminado: Matricula: 1
+[2023-04-10 20:52:34] [INFO ] [OdontologoServicio:75] Odontologo Actualizado: Matricula: 143 Nombre: Modificando Apellido: Modificando
+[2023-04-11 21:02:21] [INFO ] [PacienteServicio:45] Paciente creado DNI: 32564772 Nombre y Apellido: Jack Aubrey
+[2023-04-11 21:02:33] [INFO ] [OdontologoServicio:35] Odontologo creado: Matricula: 5 Nombre: George Apellido: Washington
+[2023-04-11 21:05:56] [INFO ] [OdontologoServicio:35] Odontologo creado: Matricula: 5 Nombre: George Apellido: Washington
+[2023-04-11 21:06:04] [INFO ] [PacienteServicio:45] Paciente creado DNI: 32564772 Nombre y Apellido: Jack Aubrey
+[2023-04-11 21:13:30] [INFO ] [PacienteServicio:45] Paciente creado DNI: 32564772 Nombre y Apellido: Jack Aubrey
+[2023-04-11 21:13:34] [INFO ] [OdontologoServicio:35] Odontologo creado: Matricula: 5 Nombre: George Apellido: Washington
+[2023-04-11 21:24:15] [INFO ] [PacienteServicio:45] Paciente creado DNI: 32564772 Nombre y Apellido: Jack Aubrey
+[2023-04-11 21:24:18] [INFO ] [OdontologoServicio:35] Odontologo creado: Matricula: 5 Nombre: George Apellido: Washington
+[2023-04-11 21:24:21] [INFO ] [TurnoServicio:59] Alta turno exitosa: Paciente: Jack Aubrey Odontologo: George Washington Fecha: Thu Mar 30 13:41:00 ART 2023
+[2023-04-11 21:24:59] [INFO ] [TurnoServicio:59] Alta turno exitosa: Paciente: Jack Aubrey Odontologo: George Washington Fecha: Thu Mar 30 13:41:00 ART 2023
+[2023-04-11 21:28:31] [INFO ] [PacienteServicio:45] Paciente creado DNI: 32564772 Nombre y Apellido: Jack Aubrey
+[2023-04-11 21:28:35] [INFO ] [OdontologoServicio:35] Odontologo creado: Matricula: 5 Nombre: George Apellido: Washington
+[2023-04-11 21:28:39] [INFO ] [TurnoServicio:59] Alta turno exitosa: Paciente: Jack Aubrey Odontologo: George Washington Fecha: Thu Mar 30 13:41:00 ART 2023
+[2023-04-11 21:30:56] [INFO ] [PacienteServicio:45] Paciente creado DNI: 32564772 Nombre y Apellido: Jack Aubrey
+[2023-04-11 21:31:00] [INFO ] [OdontologoServicio:35] Odontologo creado: Matricula: 5 Nombre: George Apellido: Washington
+[2023-04-11 21:31:30] [INFO ] [TurnoServicio:59] Alta turno exitosa: Paciente: Jack Aubrey Odontologo: George Washington Fecha: Thu Mar 30 13:41:00 ART 2023
+[2023-04-11 21:56:14] [INFO ] [PacienteServicio:45] Paciente creado DNI: 32564772 Nombre y Apellido: Jack Aubrey
+[2023-04-11 21:56:17] [INFO ] [OdontologoServicio:35] Odontologo creado: Matricula: 5 Nombre: George Apellido: Washington
+[2023-04-11 21:56:24] [INFO ] [TurnoServicio:63] Alta turno exitosa: Paciente: Jack Aubrey Odontologo: George Washington Fecha: Thu Mar 30 13:41:00 ART 2023
+[2023-04-11 21:56:37] [INFO ] [TurnoServicio:63] Alta turno exitosa: Paciente: Jack Aubrey Odontologo: George Washington Fecha: Thu Mar 30 13:41:00 ART 2023
+[2023-04-11 21:57:33] [INFO ] [OdontologoServicio:95] Odontologo Eliminado: Matricula: 5
+[2023-04-11 22:03:24] [INFO ] [PacienteServicio:45] Paciente creado DNI: 32564772 Nombre y Apellido: Jack Aubrey
+[2023-04-11 22:03:26] [INFO ] [OdontologoServicio:35] Odontologo creado: Matricula: 5 Nombre: George Apellido: Washington
+[2023-04-11 22:03:29] [INFO ] [TurnoServicio:63] Alta turno exitosa: Paciente: Jack Aubrey Odontologo: George Washington Fecha: Thu Mar 30 13:41:00 ART 2023
+[2023-04-11 22:03:40] [INFO ] [OdontologoServicio:97] Odontologo Eliminado: Matricula: 5
+[2023-04-11 22:22:58] [INFO ] [PacienteServicio:45] Paciente creado DNI: 32564772 Nombre y Apellido: Jack Aubrey
+[2023-04-11 22:23:03] [INFO ] [OdontologoServicio:39] Odontologo creado: Matricula: 5 Nombre: George Apellido: Washington
+[2023-04-11 22:23:08] [INFO ] [TurnoServicio:63] Alta turno exitosa: Paciente: Jack Aubrey Odontologo: George Washington Fecha: Thu Mar 30 13:41:00 ART 2023
+[2023-04-11 22:23:19] [INFO ] [OdontologoServicio:112] Odontologo Eliminado: Matricula: 5
+[2023-04-11 22:23:25] [ERROR] [GlobalExceptionHandler:23] El odontologo solicitado no se encuentra registrado
+[2023-04-11 22:23:30] [ERROR] [GlobalExceptionHandler:23] El turno solicitado no se encuentra en la base de datos
+[2023-04-11 22:34:27] [INFO ] [PacienteServicio:45] Paciente creado DNI: 32564772 Nombre y Apellido: Jack Aubrey
+[2023-04-11 22:34:31] [INFO ] [OdontologoServicio:37] Odontologo creado: Matricula: 5 Nombre: George Apellido: Washington
+[2023-04-11 22:34:38] [INFO ] [TurnoServicio:63] Alta turno exitosa: Paciente: Jack Aubrey Odontologo: George Washington Fecha: Thu Mar 30 13:41:00 ART 2023
+[2023-04-11 22:35:03] [INFO ] [PacienteServicio:90] Paciente eliminado
+[2023-04-12 11:31:46] [INFO ] [PacienteServicio:49] Paciente creado DNI: 32564772 Nombre y Apellido: Jack Aubrey
+[2023-04-12 11:31:50] [INFO ] [OdontologoServicio:37] Odontologo creado: Matricula: 5 Nombre: George Apellido: Washington
+[2023-04-12 11:31:55] [INFO ] [TurnoServicio:63] Alta turno exitosa: Paciente: Jack Aubrey Odontologo: George Washington Fecha: Thu Mar 30 13:41:00 ART 2023
+[2023-04-12 11:32:00] [INFO ] [PacienteServicio:108] Paciente eliminado: DNI: 32564772
+[2023-04-12 11:44:52] [INFO ] [PacienteServicio:52] Paciente creado DNI: 32564772 Nombre y Apellido: Jack Aubrey
+[2023-04-12 11:45:03] [INFO ] [OdontologoServicio:40] Odontologo creado: Matricula: 5 Nombre: George Apellido: Washington
+[2023-04-12 11:45:07] [INFO ] [TurnoServicio:63] Alta turno exitosa: Paciente: Jack Aubrey Odontologo: George Washington Fecha: Thu Mar 30 13:41:00 ART 2023
+[2023-04-12 11:53:30] [INFO ] [PacienteServicio:51] Paciente creado DNI: 32564772 Nombre y Apellido: Jack Aubrey
+[2023-04-12 11:53:38] [INFO ] [OdontologoServicio:40] Odontologo creado: Matricula: 5 Nombre: George Apellido: Washington
+[2023-04-12 11:53:48] [INFO ] [TurnoServicio:63] Alta turno exitosa: Paciente: Jack Aubrey Odontologo: George Washington Fecha: Thu Mar 30 13:41:00 ART 2023
+[2023-04-12 11:53:57] [INFO ] [PacienteServicio:102] Paciente eliminado: DNI: 32564772
+[2023-04-12 12:01:08] [INFO ] [PacienteServicio:51] Paciente creado DNI: 32564772 Nombre y Apellido: Jack Aubrey
+[2023-04-12 12:01:14] [INFO ] [OdontologoServicio:40] Odontologo creado: Matricula: 5 Nombre: George Apellido: Washington
+[2023-04-12 12:01:29] [INFO ] [OdontologoServicio:101] Odontologo Eliminado: Matricula: 5
+[2023-04-12 12:01:38] [ERROR] [GlobalExceptionHandler:23] El odontologo solicitado no se encuentra registrado
+[2023-04-12 12:02:09] [INFO ] [PacienteServicio:51] Paciente creado DNI: 32564772 Nombre y Apellido: Jack Aubrey
+[2023-04-12 12:02:12] [INFO ] [OdontologoServicio:40] Odontologo creado: Matricula: 5 Nombre: George Apellido: Washington
+[2023-04-12 12:02:15] [INFO ] [TurnoServicio:63] Alta turno exitosa: Paciente: Jack Aubrey Odontologo: George Washington Fecha: Thu Mar 30 13:41:00 ART 2023
+[2023-04-12 12:02:19] [INFO ] [PacienteServicio:102] Paciente eliminado: DNI: 32564772
+[2023-04-12 12:02:43] [INFO ] [OdontologoServicio:101] Odontologo Eliminado: Matricula: 5
+[2023-04-12 12:03:56] [INFO ] [PacienteServicio:51] Paciente creado DNI: 32564772 Nombre y Apellido: Jack Aubrey
+[2023-04-12 12:03:59] [INFO ] [OdontologoServicio:40] Odontologo creado: Matricula: 5 Nombre: George Apellido: Washington
+[2023-04-12 12:04:03] [INFO ] [TurnoServicio:63] Alta turno exitosa: Paciente: Jack Aubrey Odontologo: George Washington Fecha: Thu Mar 30 13:41:00 ART 2023
+[2023-04-12 12:04:07] [INFO ] [OdontologoServicio:101] Odontologo Eliminado: Matricula: 5
+[2023-04-12 12:04:14] [ERROR] [GlobalExceptionHandler:23] El turno solicitado no se encuentra en la base de datos
+[2023-04-12 12:04:17] [ERROR] [GlobalExceptionHandler:23] El paciente solicitado no se encuentra registrado en la base de datos
+[2023-04-12 12:09:11] [INFO ] [PacienteServicio:51] Paciente creado DNI: 32564772 Nombre y Apellido: Jack Aubrey
+[2023-04-12 12:09:14] [INFO ] [OdontologoServicio:40] Odontologo creado: Matricula: 5 Nombre: George Apellido: Washington
+[2023-04-12 12:09:17] [INFO ] [TurnoServicio:63] Alta turno exitosa: Paciente: Jack Aubrey Odontologo: George Washington Fecha: Thu Mar 30 13:41:00 ART 2023
+[2023-04-12 12:09:20] [INFO ] [OdontologoServicio:101] Odontologo Eliminado: Matricula: 5
+[2023-04-12 12:10:44] [INFO ] [PacienteServicio:51] Paciente creado DNI: 32564772 Nombre y Apellido: Jack Aubrey
+[2023-04-12 12:10:48] [INFO ] [OdontologoServicio:40] Odontologo creado: Matricula: 5 Nombre: George Apellido: Washington
+[2023-04-12 12:10:51] [INFO ] [TurnoServicio:63] Alta turno exitosa: Paciente: Jack Aubrey Odontologo: George Washington Fecha: Thu Mar 30 13:41:00 ART 2023
+[2023-04-12 12:10:55] [INFO ] [OdontologoServicio:101] Odontologo Eliminado: Matricula: 5
+[2023-04-12 12:15:42] [INFO ] [PacienteServicio:51] Paciente creado DNI: 32564772 Nombre y Apellido: Jack Aubrey
+[2023-04-12 12:15:46] [INFO ] [OdontologoServicio:40] Odontologo creado: Matricula: 5 Nombre: George Apellido: Washington
+[2023-04-12 12:15:49] [INFO ] [TurnoServicio:63] Alta turno exitosa: Paciente: Jack Aubrey Odontologo: George Washington Fecha: Thu Mar 30 13:41:00 ART 2023
+[2023-04-12 12:15:51] [INFO ] [OdontologoServicio:101] Odontologo Eliminado: Matricula: 5
+[2023-04-12 12:16:54] [INFO ] [PacienteServicio:51] Paciente creado DNI: 32564772 Nombre y Apellido: Jack Aubrey
+[2023-04-12 12:16:57] [INFO ] [OdontologoServicio:40] Odontologo creado: Matricula: 5 Nombre: George Apellido: Washington
+[2023-04-12 12:17:00] [INFO ] [TurnoServicio:63] Alta turno exitosa: Paciente: Jack Aubrey Odontologo: George Washington Fecha: Thu Mar 30 13:41:00 ART 2023
+[2023-04-12 12:17:04] [INFO ] [OdontologoServicio:101] Odontologo Eliminado: Matricula: 5
+[2023-04-12 12:19:12] [INFO ] [PacienteServicio:51] Paciente creado DNI: 32564772 Nombre y Apellido: Jack Aubrey
+[2023-04-12 12:19:15] [INFO ] [OdontologoServicio:40] Odontologo creado: Matricula: 5 Nombre: George Apellido: Washington
+[2023-04-12 12:19:19] [INFO ] [TurnoServicio:63] Alta turno exitosa: Paciente: Jack Aubrey Odontologo: George Washington Fecha: Thu Mar 30 13:41:00 ART 2023
+[2023-04-12 12:19:22] [INFO ] [OdontologoServicio:101] Odontologo Eliminado: Matricula: 5
+[2023-04-12 12:20:57] [INFO ] [PacienteServicio:51] Paciente creado DNI: 32564772 Nombre y Apellido: Jack Aubrey
+[2023-04-12 12:20:59] [INFO ] [OdontologoServicio:40] Odontologo creado: Matricula: 5 Nombre: George Apellido: Washington
+[2023-04-12 12:21:03] [INFO ] [TurnoServicio:63] Alta turno exitosa: Paciente: Jack Aubrey Odontologo: George Washington Fecha: Thu Mar 30 13:41:00 ART 2023
+[2023-04-12 12:21:06] [INFO ] [PacienteServicio:102] Paciente eliminado: DNI: 32564772
+[2023-04-12 12:22:24] [INFO ] [PacienteServicio:51] Paciente creado DNI: 32564772 Nombre y Apellido: Jack Aubrey
+[2023-04-12 12:22:26] [INFO ] [OdontologoServicio:40] Odontologo creado: Matricula: 5 Nombre: George Apellido: Washington
+[2023-04-12 12:22:29] [INFO ] [TurnoServicio:63] Alta turno exitosa: Paciente: Jack Aubrey Odontologo: George Washington Fecha: Thu Mar 30 13:41:00 ART 2023
+[2023-04-12 12:22:33] [INFO ] [OdontologoServicio:101] Odontologo Eliminado: Matricula: 5
+[2023-04-12 12:27:34] [INFO ] [PacienteServicio:51] Paciente creado DNI: 32564772 Nombre y Apellido: Jack Aubrey
+[2023-04-12 12:27:36] [INFO ] [OdontologoServicio:40] Odontologo creado: Matricula: 5 Nombre: George Apellido: Washington
+[2023-04-12 12:27:39] [INFO ] [TurnoServicio:63] Alta turno exitosa: Paciente: Jack Aubrey Odontologo: George Washington Fecha: Thu Mar 30 13:41:00 ART 2023
+[2023-04-12 12:27:42] [INFO ] [OdontologoServicio:106] Odontologo Eliminado: Matricula: 5
+[2023-04-12 12:28:10] [INFO ] [TurnoServicio:130] Turno Eliminado con exito: Id Turno Eliminado: 1
+[2023-04-12 12:30:06] [INFO ] [PacienteServicio:51] Paciente creado DNI: 32564772 Nombre y Apellido: Jack Aubrey
+[2023-04-12 12:30:10] [INFO ] [OdontologoServicio:40] Odontologo creado: Matricula: 5 Nombre: George Apellido: Washington
+[2023-04-12 12:30:13] [INFO ] [TurnoServicio:61] Alta turno exitosa: Paciente: Jack Aubrey Odontologo: George Washington Fecha: Thu Mar 30 13:41:00 ART 2023
+[2023-04-12 12:30:17] [INFO ] [TurnoServicio:128] Turno Eliminado con exito: Id Turno Eliminado: 1
+[2023-04-12 12:30:21] [INFO ] [TurnoServicio:61] Alta turno exitosa: Paciente: Jack Aubrey Odontologo: George Washington Fecha: Thu Mar 30 13:41:00 ART 2023
+[2023-04-12 12:30:24] [INFO ] [OdontologoServicio:106] Odontologo Eliminado: Matricula: 5
+[2023-04-12 12:31:10] [INFO ] [PacienteServicio:51] Paciente creado DNI: 32564772 Nombre y Apellido: Jack Aubrey
+[2023-04-12 12:31:13] [INFO ] [OdontologoServicio:40] Odontologo creado: Matricula: 5 Nombre: George Apellido: Washington
+[2023-04-12 12:31:16] [INFO ] [TurnoServicio:61] Alta turno exitosa: Paciente: Jack Aubrey Odontologo: George Washington Fecha: Thu Mar 30 13:41:00 ART 2023
+[2023-04-12 12:31:20] [INFO ] [PacienteServicio:102] Paciente eliminado: DNI: 32564772
+[2023-04-12 12:33:38] [INFO ] [PacienteServicio:54] Paciente creado DNI: 32564772 Nombre y Apellido: Jack Aubrey
+[2023-04-12 12:33:40] [INFO ] [OdontologoServicio:40] Odontologo creado: Matricula: 5 Nombre: George Apellido: Washington
+[2023-04-12 12:33:43] [INFO ] [TurnoServicio:61] Alta turno exitosa: Paciente: Jack Aubrey Odontologo: George Washington Fecha: Thu Mar 30 13:41:00 ART 2023
+[2023-04-12 12:33:47] [INFO ] [PacienteServicio:108] Paciente eliminado: DNI: 32564772
+[2023-04-13 20:43:14] [INFO ] [OdontologoServicio:40] Odontologo creado: Matricula: 55 Nombre: Crisitian Apellido: Linares
+[2023-04-13 20:43:50] [INFO ] [PacienteServicio:54] Paciente creado DNI: 111 Nombre y Apellido: Beli Linartes
+[2023-04-13 20:44:17] [ERROR] [GlobalExceptionHandler:23] El odontologo solicitado no se encuentra registrado
+[2023-04-13 20:44:25] [INFO ] [TurnoServicio:61] Alta turno exitosa: Paciente: Beli Linartes Odontologo: Crisitian Linares Fecha: Fri Apr 21 13:48:00 ART 2023
+[2023-04-15 19:07:30] [INFO ] [PacienteServicio:54] Paciente creado DNI: 33 Nombre y Apellido: Juan Perez
+[2023-04-15 19:07:45] [ERROR] [GlobalExceptionHandler:29] El nombre no puede ser nulo ni estar vacio
+[2023-04-15 19:15:35] [INFO ] [PacienteServicio:54] Paciente creado DNI: 32564772 Nombre y Apellido: Jack Aubrey
+[2023-04-15 19:18:00] [INFO ] [PacienteServicio:54] Paciente creado DNI: 32564772 Nombre y Apellido: Jack Aubrey
+[2023-04-15 19:21:58] [INFO ] [PacienteServicio:54] Paciente creado DNI: 32564772 Nombre y Apellido: Jack Aubrey
+[2023-04-15 19:27:42] [INFO ] [PacienteServicio:54] Paciente creado DNI: 32564772 Nombre y Apellido: Jack Aubrey
+[2023-04-16 19:05:10] [INFO ] [PacienteServicio:54] Paciente creado DNI: 32564772 Nombre y Apellido: Jack Aubrey
+[2023-04-16 19:06:57] [ERROR] [GlobalExceptionHandler:29] El dni no puede ser nulo ni estar vacio
+[2023-04-16 19:07:03] [ERROR] [GlobalExceptionHandler:29] El dni no puede ser nulo ni estar vacio
+[2023-04-16 19:08:02] [INFO ] [PacienteServicio:146] Paciente actualizado:DNI: 32564772
+[2023-04-16 19:11:42] [INFO ] [PacienteServicio:108] Paciente eliminado: DNI: 32564772
+[2023-04-16 19:18:30] [INFO ] [PacienteServicio:54] Paciente creado DNI: 32564772 Nombre y Apellido: Jack Aubrey
+[2023-04-16 19:18:41] [INFO ] [PacienteServicio:108] Paciente eliminado: DNI: 32564772
+[2023-04-16 20:00:14] [ERROR] [GlobalExceptionHandler:29] La matricula no puede ser nula ni estar vacia
+[2023-04-16 20:02:23] [ERROR] [GlobalExceptionHandler:29] EL nombre debe ser valido o no debe estar vacio
+[2023-04-16 20:03:42] [ERROR] [GlobalExceptionHandler:29] EL nombre debe ser valido o no debe estar vacio
+[2023-04-16 20:03:56] [INFO ] [OdontologoServicio:40] Odontologo creado: Matricula: 123 Nombre: Juan Apellido: Perez
+[2023-04-16 20:04:07] [INFO ] [OdontologoServicio:80] Odontologo Actualizado: Matricula: 123 Nombre: Juan Apellido: Gonzalez
+[2023-04-16 20:04:18] [INFO ] [OdontologoServicio:106] Odontologo Eliminado: Matricula: 123
+[2023-04-16 20:16:30] [INFO ] [OdontologoServicio:40] Odontologo creado: Matricula: 123 Nombre: Facundo Apellido: Llano
+[2023-04-16 20:16:38] [INFO ] [OdontologoServicio:80] Odontologo Actualizado: Matricula: 123 Nombre: Jose Apellido: Llano
+[2023-04-16 20:17:00] [INFO ] [PacienteServicio:54] Paciente creado DNI: 123 Nombre y Apellido: Juan Aubrey
+[2023-04-16 20:17:52] [INFO ] [TurnoServicio:61] Alta turno exitosa: Paciente: Juan Aubrey Odontologo: Jose Llano Fecha: Tue Apr 25 22:22:00 ART 2023
+[2023-04-16 20:18:05] [INFO ] [TurnoServicio:102] Modificacion de turno exitosa: Paciente: Juan Aubrey Odontologo: Jose Llano Fecha: Tue Apr 25 22:22:00 ART 2023
+[2023-04-16 20:18:12] [ERROR] [GlobalExceptionHandler:29] El id del turno no puede ser nulo ni debe estar vacio
+[2023-04-16 20:18:16] [ERROR] [GlobalExceptionHandler:29] El dni del paciente no debe ser nulo ni debe estar vacio
+[2023-04-16 20:18:21] [ERROR] [GlobalExceptionHandler:29] La matricula del odontologo no debe ser nula ni debe estar vacia
+[2023-04-17 08:26:16] [INFO ] [PacienteServicio:54] Paciente creado DNI: 32564772 Nombre y Apellido: Jack Aubrey
+[2023-04-17 08:26:26] [INFO ] [OdontologoServicio:40] Odontologo creado: Matricula: 5 Nombre: George Apellido: Washington
+[2023-04-17 08:26:50] [INFO ] [TurnoServicio:61] Alta turno exitosa: Paciente: Jack Aubrey Odontologo: George Washington Fecha: Tue Apr 18 09:30:00 ART 2023
+[2023-04-17 08:27:05] [INFO ] [TurnoServicio:102] Modificacion de turno exitosa: Paciente: Jack Aubrey Odontologo: George Washington Fecha: Thu Apr 20 10:30:00 ART 2023
+[2023-04-17 08:27:30] [INFO ] [TurnoServicio:102] Modificacion de turno exitosa: Paciente: Jack Aubrey Odontologo: George Washington Fecha: Thu Apr 27 10:30:00 ART 2023
+[2023-04-17 08:28:36] [INFO ] [TurnoServicio:102] Modificacion de turno exitosa: Paciente: Jack Aubrey Odontologo: George Washington Fecha: Wed Apr 19 09:30:00 ART 2023
+[2023-04-17 08:29:03] [INFO ] [TurnoServicio:128] Turno Eliminado con exito: Id Turno Eliminado: 1

@@ -1,0 +1,368 @@
+{
+	"info": {
+		"_postman_id": "d8bf10c9-e68b-4159-bd17-ea64f3a94471",
+		"name": "Collection ClinicaIntegrador",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23411888"
+	},
+	"item": [
+		{
+			"name": "Paciente",
+			"item": [
+				{
+					"name": "AltaPaciente",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"dni\": \"32564772\",\r\n        \"nombre\": \"Jack\",\r\n        \"apellido\": \"Aubrey\",\r\n        \"email\": \"ja@gmail.com\",\r\n        \"fecha_alta\": \"2023-03-30T16:41\",\r\n        \"domicilio\": {\r\n            \r\n            \"numero\": \"432\",\r\n            \"calle\": \"Piccadilly Circus\",\r\n            \"ciudad\": \"Londres\",\r\n            \"provincia\": \"Londres Province\",\r\n            \"pais\": \"Inglaterra\"\r\n        }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/pacientes/altaPacientes",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"pacientes",
+								"altaPacientes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar Paciente",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"dni\" : 32564772,\r\n    \"nombre\" : \"modificacion nombre\",\r\n    \"apellido\" :\"\",\r\n    \"email\" : \"\",\r\n    \r\n    \"domicilio\" : {\r\n        \"numero\" : \"\",\r\n        \"calle\" :  \"modificacion calle\",\r\n        \"ciudad\" : \"\",\r\n        \"provincia\" : \"modificacion Provincia\",\r\n        \"pais\" : \"\"\r\n\r\n    }\r\n\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/pacientes/actualizarPaciente",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"pacientes",
+								"actualizarPaciente"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar Paciente",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/pacientes/eliminarPaciente/32564772",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"pacientes",
+								"eliminarPaciente",
+								"32564772"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Consultar Paciente",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/pacientes/consultarPaciente/32564772",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"pacientes",
+								"consultarPaciente",
+								"32564772"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Listar Pacientess",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/pacientes/listarPacientes",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"pacientes",
+								"listarPacientes"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Odontologo",
+			"item": [
+				{
+					"name": "Alta Odontologo",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"matricula\": \"5\",\r\n        \"nombre\": \"George\",\r\n        \"apellido\": \"Washington\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/odontologos/crearOdontologo",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"odontologos",
+								"crearOdontologo"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Modificar Odontologo",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"matricula\" : 5,\r\n    \"nombre\" : \"nuevo nombre\",\r\n    \"apellido\" : \"\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/odontologos/actualizarOdontologo",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"odontologos",
+								"actualizarOdontologo"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar Odontologo",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/odontologos/eliminarOdontologo/5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"odontologos",
+								"eliminarOdontologo",
+								"5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Consultar Odontologo",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/odontologos/consultarOdontologo/5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"odontologos",
+								"consultarOdontologo",
+								"5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "LIstar Odontologos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/odontologos/listarOdontologos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"odontologos",
+								"listarOdontologos"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Turnos",
+			"item": [
+				{
+					"name": "Alta Turno",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"dni_paciente\" : 32564772,\r\n    \"matricula_odontologo\" : 5,\r\n    \"fecha_turno\" : \"2023-03-30T16:41\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/turnos/altaTurno",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"turnos",
+								"altaTurno"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Modificar Turno",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\" : 1,\r\n    \"fecha_turno\" : \"2023-07-30T20:30\",\r\n    \"matricula_odontologo\" : \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/turnos/actualizarTurno",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"turnos",
+								"actualizarTurno"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Consultar Turno",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Listar Turnos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/turnos/listarTurnos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"turnos",
+								"listarTurnos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar Turno",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/turnos/eliminarTurno/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"turnos",
+								"eliminarTurno",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
